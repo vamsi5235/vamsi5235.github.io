@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(120deg,#faff7a,#f33727);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tarea{
+  height: 20rem;
+  width: 50rem;
+  border-radius: 4px;
+  place-content: 'Write here......';
+}
+
+.backdrop{
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left:0;
+}
+
+.modal{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  width: 400px;
+  height: 110px;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50%-15rem);
+  text-align: center;
+} 
+
+.btn{
+
+  font:inherit;
+  padding: 0.2rem 0.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: crimson;
+  color: black;
+  border-color: 2px crimson;
+  margin: 0 0.2rem;
+  
+
+}
