@@ -1,18 +1,9 @@
-/* ===================================================================
- * Luther 1.0.0 - Main JS
- *
- * ------------------------------------------------------------------- */
-
 (function(html) {
 
     "use strict";
 
     html.className = html.className.replace(/\bno-js\b/g, '') + ' js ';
 
-
-
-   /* Animations
-    * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
         duration: 800,
@@ -85,10 +76,6 @@
             tl.play();
         });
 
-        // force page scroll position to top at page refresh
-        // window.addEventListener('beforeunload' , function () {
-        //     // window.scrollTo(0, 0);
-        // });
 
     }; // end ssPreloader
 
